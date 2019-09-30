@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Inconsolata", sans-serif;
+  }
+
+.banner {
+    background-image: url("../img/Mellyssa_Monteiro_A\ ruido.jpg");
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-informacoes {
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.banner-informacoes p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.banner-informacoes a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: gray;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+.banner-informacoes a:hover {
+    background-color: white;
+}
+h1 {
+    font-family: "Inconsolata";
+    font-size: 2.0rem;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: "Inconsolata", sans-serif;    
+}
+
+h2 {
+    text-align: center;
+}
+
+.redes-sociais_item_facebook,
+.redes-sociais_item_instagram,
+.redes-sociais_item_github,
+.redes-sociais_item_twitter {
+    background-color: gray;
+    padding: 2rem;
+    color: white;
+}
+
+.redes-sociais_item_facebook a,
+.redes-sociais_item_instagram a,
+.redes-sociais_item_github a,
+.redes-sociais_item_twitter a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociais_item {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.redes-sociais_item img {
+    min-width: 1.5rem;
+}
+
+.sobre-mim, 
+.redes-sociais{
+    max-width: 1028px;
+    margin: 0 auto;
+    padding: 5em 0 0 0;
+}
+
+.sobre-mim_habilidades {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+
+}
+.sobre-mim_habilidades_titulo {
+    max-width: 30rem;
+    margin-right: 2rem;
+}
+
+.sobre-mim_habilidades_titulo a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+footer {
+    text-align: center;
+    margin= 3rem 0;
+    padding-top: 20vh;
+    padding-bottom: 2vh;
+}
